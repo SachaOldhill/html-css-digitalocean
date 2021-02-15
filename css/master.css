@@ -79,6 +79,7 @@
   text-align: center;
   width: 100%;
   padding: 35px 10px;
+  margin-left: 60px;
   }
 .data_txt{
   font-size: 35px;
@@ -175,4 +176,37 @@ display: block;
 }
 .designed_section{
   background-color: lightgrey;
+}
+.designed_txt{
+  padding: 30px 0px;
+}
+.designed_img{
+  padding: 60px 0px;
+}
+/* versione tablet md */
+@media screen and (min-width:769px) and (max-width:992px){
+  .data{
+    min-width: 250px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-align: center;
+    width: 90%;
+    padding: 35px 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+    }
+}
+/* versione mobile xs */
+@media screen and (max-width:768px){
+  .data{
+    min-width: 250px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-align: center;
+    width: 90%;
+    padding: 35px 10px;
+    margin: auto;
+    }
 }
