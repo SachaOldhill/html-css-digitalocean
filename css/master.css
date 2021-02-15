@@ -3,6 +3,10 @@
   height: 100%;
   padding-top: 5px;
 }
+.center_txt{
+  text-align: center;
+  padding: 10px 0;
+}
 /* *{
   background-color: blue;
   height: 100px;
@@ -12,9 +16,9 @@
 .dropbtn {
   font-size: 14px;
   padding: 8px;
-  font-size: 8px;
   border: none;
   cursor: pointer;
+  display: block
 }
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -56,13 +60,16 @@
 }
 .jumbotron_text{
   color: white;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bold;
   padding-bottom: 15px;
 }
 .jumbotron_txt{
   color: white;
-  font-size: 30px;
+  font-size: 25px;
+}
+.padbot20{
+  padding-bottom: 20px;
 }
 .data{
   min-width: 250px;
@@ -71,26 +78,101 @@
   border-radius: 5px;
   text-align: center;
   width: 100%;
-}
-.data_90{
-  width: 90%;
+  padding: 35px 10px;
+  }
+.data_txt{
+  font-size: 35px;
+  font-weight: bold;
 }
 .data_blue{
   display: block;
   color: blue;
-  font-size: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
-.email{
-  width: 90%;
+.input{
+  width: 100%;
   padding: 5px;
   font-weight: bold;
-  margin: 5px 5%;
   display: block;
+  margin: 5px 0;
 }
 .button{
   white-space: nowrap;
-  padding: 5px 138px;
-  background-color: lightblue;
   font-weight: bold;
   border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 5px 0px;
+  margin-top: 5px;
+}
+.lightblue{
+  background-color: lightblue;
+}
+.img-google{
+  object-fit: contain;
+  height: 20px;
+  padding-left: 14px;
+  float:left;
+}
+.sign{
+  margin-right: 35px;
+}
+.shadow{
+  box-shadow: rgb(0 0 0 / 15%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
+  margin-bottom: 20px;
+}
+.data_footer{
+  font-size: bold;
+  margin: 10px 0px;
+}
+.a{
+  color: blue;
+  text-decoration: underline;
+}
+/* PARTNER */
+.h3_partner{
+  color: grey;
+}
+.partner{
+  background-color: #F3F5F9;
+  padding: 30px 10px;
+}
+.img_part{
+  min-width: 160px;
+  padding-left: 20px;
+}
+.txt_blue{
+  color: blue;
+  text-align: center;
+  padding: 20px 0px;
+}
+/* INFO */
+.info_ul{
+  border-left: 1px solid grey;
+  text-align: left;
+  padding-left: 10px;
+  margin-left: 80px;
+}
+.info_a{
+color: grey;
+font-size: 20px;
+padding: 7px 0px;;
+display: block;
+}
+.info_a:hover{
+  color: blue;
+}
+.info_img_block{
+  text-align: left;
+  padding-right: 101px;
+  padding-top: 25px;
+}
+.info_h4{
+  padding: 10px 0px;
+  display: block;
+}
+.designed_section{
+  background-color: lightgrey;
 }
