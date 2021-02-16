@@ -197,6 +197,32 @@ display: block;
 .features{
   margin: 0px 50px;
 }
+/* TABLE */
+.table{
+  background-color: blue;
+}
+.table_ul{
+  margin: 20px 30px;
+}
+.table_li{
+  border-bottom: 1px solid white;
+  padding: 15px 0px;
+}
+.table_txt1{
+  font-weight: bold;
+  color: white;
+  float: left;
+  padding-left: 15px;
+}
+.table_txt2{
+  color: lightblue;
+  padding-right: 40px;
+}
+.table_txt3{
+  color: lightgrey;
+  float: right;
+  padding-right: 15px;
+}
 /* versione tablet md */
 @media screen and (min-width:769px) and (max-width:992px){
   .data{
